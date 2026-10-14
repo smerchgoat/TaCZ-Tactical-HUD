@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:snowball",
+    "minecraft:egg",
+    "minecraft:fire_charge"
+  ]
+}

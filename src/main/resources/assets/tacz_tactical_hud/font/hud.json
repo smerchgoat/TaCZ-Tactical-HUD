@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "tacz_tactical_hud:hud/rajdhani_medium.ttf",
+      "shift": [0, 0.5],
+      "size": 10,
+      "oversample": 8
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

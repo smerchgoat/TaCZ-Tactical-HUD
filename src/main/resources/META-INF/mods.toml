@@ -1,0 +1,46 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "GPL-3.0-only"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "tacz_tactical_hud"
+version = "${file.jarVersion}"
+displayName = "TaCZ Tactical HUD"
+logoFile = "tacz_tactical_hud_logo.png"
+authors = "smerchgoat"
+credits = "TaCZ team for Timeless and Classics Zero; Indian Type Foundry for the Rajdhani font (SIL OFL 1.1)"
+description = '''
+An angled, perspective 3D gun HUD for Timeless and Classics Zero, inspired by the HUD of Tom Clancy's The Division.
+Client-side only. Not affiliated with or endorsed by Ubisoft or the TaCZ team.
+'''
+# Client-only cosmetic mod: servers do not need it and clients may join servers without it.
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.tacz_tactical_hud]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.tacz_tactical_hud]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.tacz_tactical_hud]]
+modId = "tacz"
+mandatory = true
+versionRange = "[1.1.8,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.tacz_tactical_hud]]
+modId = "cloth_config"
+mandatory = false
+versionRange = "[11,)"
+ordering = "NONE"
+side = "CLIENT"
